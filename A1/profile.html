@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Profile Clone</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body class="page-body">
+    <!-- Top Navigation Bar -->
+    <header class="top-header">
+        <div class="header-container">
+            <!-- Left Section -->
+            <div class="header-left">
+                <img src="logo.png" alt="Facebook Logo" class="logo-img">
+                <input type="text" placeholder="Search Facebook" class="search-input">
+            </div>
+            <!-- Center Section -->
+            <div class="header-center">
+                <a href="mainpage.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Friends</a>
+                <a href="#" class="nav-link">Watch</a>
+                <a href="#" class="nav-link">Marketplace</a>
+                <a href="#" class="nav-link">Groups</a>
+            </div>
+            <!-- Right Section -->
+            <div class="header-right">
+                <button class="nav-button">Messages</button>
+                <button class="nav-button">Notifications</button>
+                <img src="download.jpg" alt="User Profile" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Cover Section -->
+    <section class="cover-section">
+        <img src="new.jpg" alt="Cover Photo" class="cover-photo">
+        <div class="profile-picture-container">
+            <img src="art1.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+        <div class="profile-info">
+            <h1 class="profile-name">User Name</h1>
+            <p class="profile-bio">Bio or tagline goes here</p>
+            <div class="profile-actions">
+                <button class="primary-btn">Add Friend</button>
+                <button class="secondary-btn">Message</button>
+                <button class="secondary-btn">More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabs Navigation -->
+    <nav class="tabs-nav">
+        <div class="tabs-container">
+            <button class="tab-btn active">Posts</button>
+            <button class="tab-btn">About</button>
+            <button class="tab-btn">Friends</button>
+            <button class="tab-btn">Photos</button>
+            <button class="tab-btn">Videos</button>
+            <button class="tab-btn">More</button>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <div class="sidebar-card">
+                <h2 class="card-title">Intro</h2>
+                <p class="card-text">Location: Placeholder</p>
+                <p class="card-text">Occupation: Placeholder</p>
+                <p class="card-text">Relationship: Placeholder</p>
+            </div>
+            <div class="sidebar-card">
+                <h2 class="card-title">Featured Photos</h2>
+                <div class="photo-grid">
+                    <img src="art1.jpg" alt="Photo" class="grid-photo">
+                    <img src="art2.jpg" alt="Photo" class="grid-photo">
+                    <img src="art3.jpg" alt="Photo" class="grid-photo">
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Create Post -->
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="art1.jpg" alt="User Profile" class="post-avatar">
+                    <input type="text" placeholder="What's on your mind?" class="post-input">
+                </div>
+                <div class="post-actions">
+                    <button class="post-action-btn">Photo/Video</button>
+                    <button class="post-action-btn">Tag Friends</button>
+                    <button class="post-action-btn">Feeling/Activity</button>
+                </div>
+            </div>
+            <!-- Post Card -->
+            <div class="post-card">
+                <div class="post-header">
+                    <img src="art2.jpg" alt="User Profile" class="post-avatar">
+                    <div>
+                        <h3 class="post-author">User Name</h3>
+                        <p class="post-time">2 hrs ago</p>
+                    </div>
+                </div>
+                <p class="post-content">This is a sample post text. It can be a placeholder for now.</p>
+                <img src="art3.jpg" alt="Post Media" class="post-media">
+                <div class="post-footer">
+                    <button class="post-footer-btn">Like</button>
+                    <button class="post-footer-btn">Comment</button>
+                    <button class="post-footer-btn">Share</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="sidebar-card">
+                <h2 class="card-title">Sponsored</h2>
+                <div class="ad-content">
+                    <img src="aad.jpg" alt="Ad" class="ad-image">
+                    <p class="ad-text">Ad description goes here.</p>
+                </div>
+            </div>
+            <div class="sidebar-card">
+                <h2 class="card-title">Friend Suggestions</h2>
+                <div class="friend-suggestion">
+                    <img src="art1.jpg" alt="Friend" class="friend-avatar">
+                    <div>
+                        <h3 class="friend-name">Friend Name</h3>
+                        <button class="add-friend-btn">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

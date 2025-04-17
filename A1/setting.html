@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone - Settings</title>
+    <link rel="stylesheet" href="setting.css">
+</head>
+
+<body class="page-body">
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="nav-left">
+            <div class="logo">facebook</div>
+            <input type="text" placeholder="Search Facebook" class="search-input" />
+        </div>
+        <div class="nav-right">
+            <button class="nav-button">Add Friend</button>
+            <button class="nav-button">Messages</button>
+            <button class="nav-button">Notifications</button>
+            <img src="https://via.placeholder.com/32" class="profile-image" />
+        </div>
+    </nav>
+
+    <!-- Secondary Navigation Bar -->
+    <nav class="secondary-nav">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="mainpage.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Friends</a>
+            </li>
+            <li class="nav-item">
+                <a href="notification.html" class="nav-link">Notifications</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Events</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Pages</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Insights</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Publication Tools</a>
+            </li>
+            
+            <div class="nav-right-items">
+                <li class="nav-item bold">
+                <a href="setting.html" class="nav-link">Settings</a>
+                </li>
+                <li class="nav-item bold">
+                <a href="help.html" class="nav-link">Help</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="settings-container">
+        <header class="settings-header">
+            <h1 class="settings-title">Settings</h1>
+        </header>
+        <div class="settings-content">
+            <div class="settings-section">
+                <h2 class="section-title">Account Settings</h2>
+                <div class="form-group">
+                    <label class="form-label" for="username">Username</label>
+                    <input type="text" id="username" class="form-input" placeholder="Enter your username">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h2 class="section-title">Privacy Settings</h2>
+                <div class="form-group">
+                    <label class="form-label" for="visibility">Profile Visibility</label>
+                    <select id="visibility" class="form-input">
+                        <option>Public</option>
+                        <option>Friends Only</option>
+                        <option>Private</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="settings-section">
+                <h2 class="section-title">Security Settings</h2>
+                <div class="form-group">
+                    <label class="form-label" for="password">Change Password</label>
+                    <input type="password" id="password" class="form-input" placeholder="Enter new password">
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button class="save-button">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

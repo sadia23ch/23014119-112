@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Notifications Clone</title>
+    <link rel="stylesheet" href="notification.css">
+</head>
+<body class="page-body">
+
+    <!-- Top Navigation Bar -->
+    <header class="top-header">
+        <div class="header-container">
+            <!-- Left Section -->
+            <div class="header-left">
+                <img src="logo.png" alt="Facebook Logo" class="logo-img">
+                <input type="text" placeholder="Search Facebook" class="search-input">
+            </div>
+            <!-- Center Navigation -->
+            <div class="header-center">
+                <a href="mainpage.html" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Friends</a>
+                <a href="#" class="nav-link">Watch</a>
+                <a href="#" class="nav-link">Marketplace</a>
+                <a href="#" class="nav-link">Groups</a>
+            </div>
+            <!-- Right Section -->
+            <div class="header-right">
+                <a href="#" class="nav-link">Create</a>
+                <a href="#" class="nav-link">Messenger</a>
+                <a href="notification.html" class="nav-link">Notifications</a>
+                <a href="#" class="nav-link">Account</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Notification Sidebar -->
+        <aside class="notification-sidebar">
+            <h2 class="sidebar-title">Notifications</h2>
+            <div class="notification-filter">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Unread</button>
+            </div>
+            <div class="notification-list">
+                <h3 class="notification-date">Today</h3>
+                <ul>
+                    <li class="notification-item">
+                        <img src="download (1).jpg" alt="Profile" class="notification-avatar">
+                        <span class="notification-text">John Doe liked your photo</span>
+                        <span class="notification-time">3 hrs ago</span>
+                    </li>
+                </ul>
+                <h3 class="notification-date">Earlier</h3>
+                <ul>
+                    <li class="notification-item">
+                        <img src="download.jpg" alt="Profile" class="notification-avatar">
+                        <span class="notification-text">Jane Smith commented on your post</span>
+                        <span class="notification-time">Yesterday</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Notification Feed -->
+        <section class="notification-feed">
+            <h2 class="feed-title">Notification Feed</h2>
+            <div class="feed-items">
+                <div class="feed-item">
+                    <img src="download (1).jpg" alt="Profile" class="feed-avatar">
+                    <div class="feed-content">
+                        <p><span class="feed-name">John Doe</span> liked your photo.</p>
+                        <p class="feed-time">3 hrs ago</p>
+                    </div>
+                </div>
+                <div class="feed-item">
+                    <img src="download (1).jpg" alt="Profile" class="feed-avatar">
+                    <div class="feed-content">
+                        <p><span class="feed-name">Jane Smith</span> commented on your post.</p>
+                        <p class="feed-time">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Sidebar -->
+        <aside class="suggestions-sidebar">
+            <h2 class="sidebar-title">Suggestions</h2>
+            <div class="suggestion-items">
+                <div class="suggestion-item">
+                    <img src="download (1).jpg" alt="Profile" class="suggestion-avatar">
+                    <div class="suggestion-content">
+                        <p class="suggestion-name">Alice Johnson</p>
+                        <button class="add-friend-btn">Add Friend</button>
+                    </div>
+                </div>
+                <div class="suggestion-item">
+                    <img src="download (1).jpg" alt="Profile" class="suggestion-avatar">
+                    <div class="suggestion-content">
+                        <p class="suggestion-name">Bob Brown</p>
+                        <button class="add-friend-btn">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2023 Facebook Clone. All rights reserved.</p>
+            <p>Privacy · Terms · Advertising · Cookies · More</p>
+        </div>
+    </footer>
+
+</body>
+</html>

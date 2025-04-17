@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook Page Clone</title>
+  <link rel="stylesheet" href="mainpage.css">
+</head>
+<body class="bg-gray-100 font-sans">
+<!-- Top Nav -->
+<nav class="top-nav">
+    <div class="nav-left">
+        <div class="logo">facebook</div>
+        <input type="text" placeholder="Search Facebook" class="search-bar" />
+    </div>
+    <div class="nav-right">
+        <button class="nav-btn">Add Friend</button>
+        <button class="nav-btn">Messages</button>
+        <button class="nav-btn">Notifications</button>
+        <img src="https://via.placeholder.com/32" class="profile-img" />
+    </div>
+</nav>
+<!-- Secondary Nav -->
+<nav class="secondary-nav">
+    <ul class="secondary-nav-list">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="profile.html" class="nav-link">Profile</a></li>
+        <li><a href="#" class="nav-link">Friends</a></li>
+        <li><a href="notification.html" class="nav-link">Notifications</a></li>
+        <li><a href="#" class="nav-link">Events</a></li>
+        <li><a href="#" class="nav-link">Pages</a></li>
+        <li><a href="#" class="nav-link">Insights</a></li>
+        <li><a href="#" class="nav-link">Publication Tools</a></li>
+        
+        <div class="nav-right-links">
+            <li><a href="setting.html" class="nav-link bold">Settings</a></li>
+            <li><a href="help.html" class="nav-link bold">Help</a></li>
+        </div>
+    </ul>
+</nav>
+<!-- Main Content -->
+<div class="main-container">
+    <!-- Left Sidebar -->
+    <div class="left-sidebar">
+        <h2 class="sidebar-title">Shortcuts</h2>
+        <ul class="sidebar-list">
+            <li class="sidebar-item">Friends</li>
+            <li class="sidebar-item">Groups</li>
+            <li class="sidebar-item">Marketplace</li>
+            <li class="sidebar-item">Watch</li>
+            <li class="sidebar-item">Memories</li>
+        </ul>
+    </div>
+
+    <!-- Feed -->
+    <div class="feed">
+        <!-- Create Post -->
+        <div class="create-post">
+            <textarea
+                placeholder="What's on your mind?"
+                class="post-textarea"
+            ></textarea>
+            <div class="post-actions">
+                <button class="post-btn">Post</button>
+            </div>
+        </div>
+
+        <!-- Posts -->
+        <div class="post">
+            <div class="post-header">
+                <img src="art1.jpg" class="post-profile-img" />
+                <div>
+                    <h3 class="post-author">John Doe</h3>
+                    <p class="post-time">2 hrs ago</p>
+                </div>
+            </div>
+            <p class="post-content">This is a sample post content.</p>
+            <div class="post-footer">
+                <button class="post-action">Like</button>
+                <button class="post-action">Comment</button>
+                <button class="post-action">Share</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right-sidebar">
+        <h2 class="sidebar-title">Contacts</h2>
+        <ul class="contacts-list">
+            <li class="contact-item">
+                <img src="art2.jpg" class="contact-img" />
+                <span>Jane Smith</span>
+            </li>
+            <li class="contact-item">
+                <img src="art3.jpg" class="contact-img" />
+                <span>Michael Brown</span>
+            </li>
+            <li class="contact-item">
+                <img src="https://via.placeholder.com/32" class="contact-img" />
+                <span>Emily Davis</span>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
