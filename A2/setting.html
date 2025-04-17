@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone - Settings</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <nav class="bg-blue-600 p-3 shadow flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+            <div class="text-white text-xl font-bold">facebook</div>
+            <input type="text" placeholder="Search Facebook" class="px-3 py-1 rounded-full bg-gray-200 w-64" />
+        </div>
+        <div class="space-x-3 flex items-center">
+            <button class="bg-white text-blue-600 px-4 py-1 rounded">Add Friend</button>
+            <button class="bg-white text-blue-600 px-4 py-1 rounded">Messages</button>
+            <button class="bg-white text-blue-600 px-4 py-1 rounded">Notifications</button>
+            <img src="https://via.placeholder.com/32" class="rounded-full" />
+        </div>
+    </nav>
+    <nav class="bg-white shadow p</nav>-3 mt-2">
+        <ul class="flex justify-between text-gray</ul>-700 ">
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Profile</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Friends</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Notifications</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Events</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Pages</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Insights</a>
+            </li>
+            <li class="hover:text-blue-600 cursor-pointer">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Publication Tools</a>
+            </li>
+            
+        
+            <div class="flex space-x-6">
+                <li class="hover:text-blue-600 cursor-pointer font-bold">
+                <a href="setting.html" class="text-gray-700 hover:text-blue-600">Settings</a>
+                </li>
+                <li class="hover:text-blue-600 cursor-pointer font-bold">
+                <a href="help.html" class="text-gray-700 hover:text-blue-600">Help</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <div class="max-w-4xl mx-auto mt-10 bg-white shadow-md rounded-lg">
+        <header class="bg-blue-600 text-white p-4 rounded-t-lg">
+            <h1 class="text-xl font-bold">Settings</h1>
+        </header>
+        <div class="p-6">
+            <div class="mb-6">
+                <h2 class="text-lg font-semibold text-gray-700">Account Settings</h2>
+                <div class="mt-4">
+                    <label class="block text-gray-600 font-medium mb-2" for="username">Username</label>
+                    <input type="text" id="username" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your username">
+                </div>
+                <div class="mt-4">
+                    <label class="block text-gray-600 font-medium mb-2" for="email">Email</label>
+                    <input type="email" id="email" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your email">
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="text-lg font-semibold text-gray-700">Privacy Settings</h2>
+                <div class="mt-4">
+                    <label class="block text-gray-600 font-medium mb-2" for="visibility">Profile Visibility</label>
+                    <select id="visibility" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500">
+                        <option>Public</option>
+                        <option>Friends Only</option>
+                        <option>Private</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="text-lg font-semibold text-gray-700">Security Settings</h2>
+                <div class="mt-4">
+                    <label class="block text-gray-600 font-medium mb-2" for="password">Change Password</label>
+                    <input type="password" id="password" class="w-full border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500" placeholder="Enter new password">
+                </div>
+            </div>
+
+            <div class="flex justify-end">
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html></div>

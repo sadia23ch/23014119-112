@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Notifications Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Top Navigation Bar -->
+    <header class="bg-blue-500 shadow-md ">
+        <div class="container mx-auto px-4 flex items-center justify-between h-16 ">
+            <!-- Left Section -->
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="Facebook Logo" class="h-8">
+                <input type="text" placeholder="Search Facebook" class="bg-gray-200 rounded-full px-4 py-2 text-sm focus:outline-none">
+            </div>
+            <!-- Center Navigation -->
+            <div class="flex space-x-6">
+                <a href="mainpage.html" class="text-white font-bold">Home</a>
+                <a href="#" class="text-white font-bold">Friends</a>
+                <a href="#" class="text-white font-bold">Watch</a>
+                <a href="#" class="text-white font-bold">Marketplace</a>
+                <a href="#" class="text-white font-bold">Groups</a>
+            </div>
+            <!-- Right Section -->
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-white font-bold">Create</a>
+                <a href="#" class="text-white font-bold">Messenger</a>
+                <a href="notification.html" class="text-white font-bold">Notifications</a>
+                <a href="#" class="text-white font-bold">Account</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-6 flex space-x-6">
+        <!-- Notification Sidebar -->
+        <aside class="w-1/4 bg-white rounded-lg shadow-md p-4">
+            <h2 class="text-lg font-semibold mb-4">Notifications</h2>
+            <div class="flex space-x-4 mb-4">
+                <button class="text-blue-500 font-semibold">All</button>
+                <button>Unread</button>
+            </div>
+            <div>
+                <h3 class="text-sm font-semibold text-gray-600 mb-2">Today</h3>
+                <ul>
+                    <li class="mb-2 flex items-center space-x-2">
+                        <img src="download (1).jpg" alt="Profile" class="h-8 w-8 rounded-full">
+                        <span>John Doe liked your photo</span>
+                        <span class="text-gray-500 text-xs ml-auto">3 hrs ago</span>
+                    </li>
+                </ul>
+                <h3 class="text-sm font-semibold text-gray-600 mb-2">Earlier</h3>
+                <ul>
+                    <li class="mb-2 flex items-center space-x-2">
+                        <img src="download.jpg" alt="Profile" class="h-8 w-8 rounded-full">
+                        <span>Jane Smith commented on your post</span>
+                        <span class="text-gray-500 text-xs ml-auto">Yesterday</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Notification Feed -->
+        <section class="w-2/4 bg-white rounded-lg shadow-md p-4">
+            <h2 class="text-lg font-semibold mb-4">Notification Feed</h2>
+            <div class="space-y-4">
+                <div class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
+                    <img src="download (1).jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                    <div>
+                        <p><span class="font-semibold">John Doe</span> liked your photo.</p>
+                        <p class="text-gray-500 text-sm">3 hrs ago</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4 p-4 bg-gray-50 rounded-lg hover:bg-gray-100">
+                    <img src="download (1).jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                    <div>
+                        <p><span class="font-semibold">Jane Smith</span> commented on your post.</p>
+                        <p class="text-gray-500 text-sm">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Sidebar -->
+        <aside class="w-1/4 bg-white rounded-lg shadow-md p-4">
+            <h2 class="text-lg font-semibold mb-4">Suggestions</h2>
+            <div class="space-y-4">
+                <div class="flex items-center space-x-4">
+                    <img src="download (1).jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                    <div>
+                        <p class="font-semibold">Alice Johnson</p>
+                        <button class="text-blue-500 text-sm">Add Friend</button>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <img src="download (1).jpg" alt="Profile" class="h-10 w-10 rounded-full">
+                    <div>
+                        <p class="font-semibold">Bob Brown</p>
+                        <button class="text-blue-500 text-sm">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-md mt-6">
+        <div class="container mx-auto px-4 py-4 text-center text-sm text-gray-500 font-bold">
+            <p>&copy; 2023 Facebook Clone. All rights reserved.</p>
+            <p>Privacy · Terms · Advertising · Cookies · More</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Profile Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Top Navigation Bar -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex items-center justify-between h-16">
+            <!-- Left Section -->
+            <div class="flex items-center space-x-4">
+                <img src="logo.png" alt="Facebook Logo" class="h-8">
+                <input type="text" placeholder="Search Facebook"
+                    class="bg-gray-200 rounded-full px-4 py-2 text-sm focus:outline-none">
+            </div>
+            <!-- Center Section -->
+            <div class="flex space-x-6">
+                <a href="mainpage.html" class="text-gray-600 hover:text-blue-500">Home</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Friends</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Watch</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Marketplace</a>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Groups</a>
+            </div>
+            <!-- Right Section -->
+            <div class="flex items-center space-x-4">
+                <button class="text-gray-600 hover:text-blue-500">Messages</button>
+                <button class="text-gray-600 hover:text-blue-500">Notifications</button>
+                <img src="download.jpg" alt="User Profile" class="h-8 w-8 rounded-full">
+            </div>
+        </div>
+    </header>
+
+    <!-- Cover Section -->
+    <section class="relative">
+        <img src="new.jpg" alt="Cover Photo" class="w-full h-72 object-cover">
+        <div class="absolute bottom-0 left-4 transform translate-y-[calc(50%-50px)]">
+            <img src="art1.jpg" alt="Profile Picture"
+            class="h-32 w-32 rounded-full border-4 border-white">
+        </div>
+        <div class="mt-16 ml-40">
+            <h1 class="text-2xl font-bold">User Name</h1>
+            <p class="text-gray-600">Bio or tagline goes here</p>
+            <div class="flex space-x-4 mt-2">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded">Add Friend</button>
+                <button class="bg-gray-200 px-4 py-2 rounded">Message</button>
+                <button class="bg-gray-200 px-4 py-2 rounded">More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabs Navigation -->
+    <nav class="bg-white shadow-md sticky top-16 z-40">
+        <div class="container mx-auto px-4 flex space-x-6">
+            <button class="py-4 text-blue-500 border-b-2 border-blue-500">Posts</button>
+            <button class="py-4 text-gray-600 hover:text-blue-500">About</button>
+            <button class="py-4 text-gray-600 hover:text-blue-500">Friends</button>
+            <button class="py-4 text-gray-600 hover:text-blue-500">Photos</button>
+            <button class="py-4 text-gray-600 hover:text-blue-500">Videos</button>
+            <button class="py-4 text-gray-600 hover:text-blue-500">More</button>
+        </div>
+    </nav>
+
+    <div class="container mx-auto px-4 flex mt-6 space-x-6">
+        <!-- Left Sidebar -->
+        <aside class="w-1/4 space-y-4">
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="font-bold text-lg">Intro</h2>
+                <p class="text-gray-600">Location: Placeholder</p>
+                <p class="text-gray-600">Occupation: Placeholder</p>
+                <p class="text-gray-600">Relationship: Placeholder</p>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="font-bold text-lg">Featured Photos</h2>
+                <div class="grid grid-cols-3 gap-2 mt-2">
+                    <img src="art1.jpg" alt="Photo" class="rounded">
+                    <img src="art2.jpg" alt="Photo" class="rounded">
+                    <img src="art3.jpg" alt="Photo" class="rounded">
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="w-1/2 space-y-4">
+            <!-- Create Post -->
+            <div class="bg-white p-4 rounded shadow">
+                <div class="flex space-x-4">
+                    <img src="art1.jpg" alt="User Profile" class="h-10 w-10 rounded-full">
+                    <input type="text" placeholder="What's on your mind?"
+                        class="w-full bg-gray-200 rounded-full px-4 py-2 focus:outline-none">
+                </div>
+                <div class="flex justify-between mt-4">
+                    <button class="text-gray-600 hover:text-blue-500">Photo/Video</button>
+                    <button class="text-gray-600 hover:text-blue-500">Tag Friends</button>
+                    <button class="text-gray-600 hover:text-blue-500">Feeling/Activity</button>
+                </div>
+            </div>
+            <!-- Post Card -->
+            <div class="bg-white p-4 rounded shadow">
+                <div class="flex space-x-4">
+                    <img src="art2.jpg" alt="User Profile" class="h-10 w-10 rounded-full">
+                    <div>
+                        <h3 class="font-bold">User Name</h3>
+                        <p class="text-gray-600 text-sm">2 hrs ago</p>
+                    </div>
+                </div>
+                <p class="mt-4">This is a sample post text. It can be a placeholder for now.</p>
+                <img src="art3.jpg" alt="Post Media" class="mt-4 rounded">
+                <div class="flex justify-between mt-4">
+                    <button class="text-gray-600 hover:text-blue-500">Like</button>
+                    <button class="text-gray-600 hover:text-blue-500">Comment</button>
+                    <button class="text-gray-600 hover:text-blue-500">Share</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="w-1/4 space-y-4">
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="font-bold text-lg">Sponsored</h2>
+                <div class="mt-2">
+                    <img src="aad.jpg" alt="Ad" class="rounded">
+                    <p class="text-gray-600 mt-2">Ad description goes here.</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded shadow">
+                <h2 class="font-bold text-lg">Friend Suggestions</h2>
+                <div class="flex items-center space-x-4 mt-2">
+                    <img src="art1.jpg" alt="Friend" class="h-10 w-10 rounded-full">
+                    <div>
+                        <h3 class="font-bold">Friend Name</h3>
+                        <button class="bg-blue-500 text-white px-4 py-1 rounded mt-1">Add Friend</button>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
